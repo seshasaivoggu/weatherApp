@@ -27,15 +27,16 @@ async function checkWeather(city){
         if(data.weather[0].main=='Drizzle'){
             weatherIcon.src="images/drizzle.png"
         }
-        if(data.weather[0].main=='Mist'){
+        if(data.weather[0].main=='Mist' || data.weather[0].main=='Haze'){
             weatherIcon.src="images/mist.png"
         }
         if(data.weather[0].main=='Rain'){
             weatherIcon.src="images/rain.png"
         }
-        if(data.weather[0].main=='Snow'){
+        if(data.weather[0].main=='Snow' ){
             weatherIcon.src="images/snow.png"
         }
+
         document.querySelector(".error").style.display="none";
         document.querySelector(".weather").style.display="block";
     }
