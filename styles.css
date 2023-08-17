@@ -19,6 +19,21 @@ html{
     padding: 30px 35px;
     color: #fff;
     text-align: center;
+    margin-top: 50px;
+}
+.theme{
+    display:flex;
+    justify-content: right;
+}
+.theme button{
+    position: fixed;
+    background: #fff;
+    border: none;
+    outline: none;
+}
+.theme button img{
+    width: 30px;
+    height: 30px;
 }
 .search{
     width: 100%;
