@@ -15,7 +15,6 @@ async function checkWeather(city){
         document.querySelector(".weather").style.display="none";
     }
     else{
-        document.querySelector(".weather-icon").src=
         document.querySelector(".city").innerHTML=data.name;
         document.querySelector(".temp").innerHTML=Math.round(data.main.temp)+"°C";
         document.querySelector(".humidity").innerHTML=data.main.humidity+"%";
