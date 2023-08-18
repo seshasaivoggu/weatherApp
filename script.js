@@ -49,7 +49,7 @@ function themeSelection(){
     if(themeid==0){
         document.querySelector("html").style.backgroundColor="#121212"
         document.querySelector(".theme button").style.backgroundColor="#121212"
-        document.querySelector(".theme button img").src="/images/lightTheme.png"
+        document.querySelector(".theme button img").src="./images/lightTheme.png"
         themeid=1;
     }
     else{
